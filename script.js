@@ -9,7 +9,6 @@ function myColor() {
 }
 
 function copyInputText() {
-  //   let inputText = text.value;
   navigator.clipboard.writeText(text.value);
 }
 
